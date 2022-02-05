@@ -1,0 +1,137 @@
+<main>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" type="text/css">
+        <style>
+            <!-- Clases para usar deltro de los atributos de los tag h1,h2 y h3 -->
+            .red-text{color: red;}
+            .blue-text{color: blue;}
+            .larger-image{width: 150px;}
+            .thin-red-border{
+                border-width: 5px;
+                border-style: solid;
+                border-color: red;
+                border-radius: 10px;
+            }
+            .silver-background{
+                background-color: silver;
+            }
+            .tab{
+                padding-left: 45px;
+            }
+            #unordered-list-aptitudes{
+                background-color: skyblue;
+            }
+            #formacion-descripcion{
+                padding-left: 45px;
+            }
+            h1{color: red;}
+            h1{font-family: Bebas Neue, monospace;}
+            h2{color: blue;}
+            h3{font-size: 15px;}
+        </style>
+    </head>
+    
+    
+    <body class="thin-red-border">
+        <a id="inicio" href="https://www.facebook.com/avelino.chavez.7/"><img class="larger-image thin-red-border" src="data:image/jpeg;base64,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" alt="Archivo no Encontrado"></a>
+        <h1>Avelino Chavez Hurtado</h1>
+        <div class="silver-background">
+            <h3>Age: 30</h3>
+            <h3>Nationality: Mexican</h3>
+            <h3>Phone. 3338316408</h3>
+            <h3> Em@il: avelino.chavez7444@alumnos.udg.mx</h3>
+            <h3>Address. Arco Nuremberg 955-B, Arcos de Zapopan, Zapopan, JAL 45130</h3>
+            <h3>Single</h3>
+            <p>Find me on my social network <a target="_blank" href="https://www.facebook.com/avelino.chavez.7/">Facebook</a> and <a target="_blank" href="https://www.linkedin.com/in/avelino-chavez-hurtado-78b9951b6/">LinkedIn</a> </p>
+        </div>
+        
+        
+        <div>
+            <h2>Aptitudes</h2>
+            <ul id="unordered-list-aptitudes">
+                <li>Flexibility</li>
+                <li>Initiative</li>
+                <li>Resilience</li>
+                <li>Discipline</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Professional Resume</h2>
+            <p>Computer Engineering Student
+                with a great interest in everything
+                related to new technologies.
+                Capable of learning and applying
+                my knowledge in the field
+                professional. looking for one
+                job opportunity in
+                develop my skills and acquire
+                experience. </p>
+        </div>
+
+        <div>
+            <h2>Vocational Training</h2>
+            <ul>
+                <li>Centro Universitario de Ciencias Exactas e Ingenierias | Guadalajara, Jal</li>
+            </ul>
+            <p id="formacion-descripcion">Bachelor's degree in Computer Engineering  | 8th grade student semester</p>
+        </div>
+
+        <div>
+            <h2>Employment History</h2>
+            <ul>
+                <li>CUCEI | Guadalajara, Jal</li>
+            </ul>
+            <p class="tab">08 / 2018  - Present</p>
+            <p class="tab">Student</p>
+            <p class="tab">Until now, I have only created projects for school subjects, such as a
+                small database with Postgres and C#, data structures as lists
+                doubly linked, binary trees, graphs and the Dijkstra algorithms,
+                Kruskal and Prim and a bit of assembly language.</p>
+            <p class="tab">In terms of networks, only basic installations such as Wi-Fi repeaters or
+                creation of local networks. At the software level, make a packet interpreter
+                WireShark-type data. </p>
+        </div>
+
+        <div>
+            <h2>Languages</h2>
+            <ul>
+                <li>Spanish: Native Language</li>
+                <li>English: B2 Advanced Intermediate</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Known Software</h2>
+            <ul>
+                <li>C:   70%</li>
+                <li>C++: 80%</li>
+                <li>SQL: 70%</li>
+                <li>C#:  70%</li>
+                <li>Python: 50%</li>
+                <li>Java: 30%</li>
+                <li>Html: 20%</li>
+                <li>CSS:  20%</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Personal References</h2>
+            <ul>
+                <li>Mario Alberto Garcia Coronel - 33 3461 6516</li>
+                <li>Eduardo Antonio Lara Romo - 33 1006 1471</li>
+            </ul>
+        </div>
+        
+        
+        <a href="#inicio">Back to Top</a>
+
+        
+    </body>
+
+
+
+    
+</main>
+
+
